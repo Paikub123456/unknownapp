@@ -3,6 +3,7 @@ This is an unknown application written in Java
 
 ---- For Submission (you must fill in the information below) ----
 ### Use Case Diagram
+```mermaid
 flowchart LR
     %% Define Actors
     Student([Student])
@@ -11,7 +12,7 @@ flowchart LR
     %% System Boundary
     subgraph System [Course Enrollment System]
         direction TB
-        
+
         %% Authentication
         Login(Login / Connect)
         CreateProf(Create Student Profile)
@@ -35,7 +36,7 @@ flowchart LR
         AdminEditCourse(Edit Course)
     end
 
-    %% Connect Student to Use Cases
+    %% Connect Student
     Student --> Login
     Student --> CreateProf
     Student --> ViewCatalog
@@ -45,7 +46,7 @@ flowchart LR
     Student --> Billing
     Student --> EditMyProf
 
-    %% Connect Admin to Use Cases
+    %% Connect Admin
     Admin --> Login
     Admin --> ViewCatalog
     Admin --> ViewRoster
