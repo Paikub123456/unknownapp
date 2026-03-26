@@ -3,6 +3,12 @@ This is an unknown application written in Java
 
 ---- For Submission (you must fill in the information below) ----
 ### Use Case Diagram
+# unknownapp
+This is an unknown application written in Java
+
+---- For Submission (you must fill in the information below) ----
+
+### Use Case Diagram
 ```mermaid
 flowchart LR
     %% Define Actors
@@ -57,6 +63,7 @@ flowchart LR
     Admin --> AdminEditCourse
     Admin --> ViewSched
     Admin --> Billing
+```
 
 ### Flowchart of the main workflow
 
